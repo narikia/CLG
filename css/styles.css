@@ -6,6 +6,7 @@ p {
     color: #342636;
     font-family: 'Roboto Serif', serif;
     font-size: 20px;
+    text-align: center;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -20,6 +22,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 h3 {
@@ -27,6 +30,7 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 a {
@@ -44,4 +48,21 @@ ul {
     font-family: 'Roboto Serif', serif;
     font-size: 20px;
     list-style-type: circle;
+}
+
+.contact {
+    height: 50px;
+    width: 50px;
+}
+
+table {
+    border: 2px solid #55314b;
+}
+
+td, th {
+    border: 2px solid #6B2D5C;
+}
+
+img {
+    border-radius: 20%;
 }
