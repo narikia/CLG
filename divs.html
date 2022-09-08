@@ -14,8 +14,12 @@
 <div id="header">
     <div><h2>CSS Selectors</h2></div>
     <div><p>In CSS, we can style a <strong>html element</strong> with a <strong>selector</strong>, followed by <strong>properties</strong>.</p></div>
-    <div><p><code>selector { property: value }</code></p></div>
-    <div><p>When we nest a <strong>HTML Element</strong> within another element, it becomes a <em>"child"</em> element.</p></div>
+    <div><p><code>selector { property: value; }</code></p></div>
+    <div><p>When we nest a <strong>HTML Element</strong> within another element, it becomes a <em>"descendant"</em> element. The following is how it's coded in CSS.</p></div>
+    <div><p><code>ancestor descendant { property : value; }</code></p></div>
+    <p>This selects all of the <strong>HTML Elements</strong> within that <em>"parent"</em> or <em>"ancestor"</em> element.</p>
+    <p>We can be even more specific by selecting <strong>just</strong> the <em>"child"</em> level elements.</p>
+    <p><code>ancestor > child { property: value;}</code></p>
 </div>
 
 
