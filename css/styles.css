@@ -53,21 +53,28 @@ ul {
 .icon {
     height: 50px;
     width: 50px;
-}
-
-table {
-    border: 2px solid #55314b;
-}
-
-td, th {
-    border: 2px solid #6B2D5C;
+    border-style: none;
 }
 
 img {
+    border-style: dashed;
+    border-color: #c44694;
     border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div {
+ol {
     list-style-type: none;
-    align-content: center;
 }
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+#mainContainer {
+    background-color: rgba(23, 190, 187, 0.2);
+}
+
