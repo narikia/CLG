@@ -69,12 +69,6 @@ ol {
     list-style-type: none;
 }
 
-.container {
-    text-align: center;
-    padding: 50px;
+p.classattribute {
+    background-color:lightcoral;
 }
-
-#mainContainer {
-    background-color: rgba(23, 190, 187, 0.2);
-}
-

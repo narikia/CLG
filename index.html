@@ -29,9 +29,66 @@
         <li>External - by using a link element to link to an external CSS file</li></ul>
         <p>The most common way to add CSS is to keep the styles in external CSS files. <a href="https://www.w3schools.com/html/html_css.asp" target="_blank">Learn more about CSS at w3schools here.</a></p>
         <br><br>
+        
+
+        <div><h2>CSS Selectors</h2></div>
+        <div><p>In CSS, we can style a <strong>html element</strong> with a <strong>selector</strong>, followed by <strong>properties</strong>.</p></div>
+        <div><p><code>selector { property: value; }</code></p></div>
+        <div><p>When we nest a <strong>HTML Element</strong> within another element, it becomes a <em>"descendant"</em> element. The following is how it's coded in CSS.</p></div>
+        <div><p><code>ancestor descendant { property : value; }</code></p></div>
+        <p>This selects all of the <strong>HTML Elements</strong> within that <em>"parent"</em> or <em>"ancestor"</em> element.</p>
+        <p>We can be even more specific by selecting <strong>just</strong> the <em>"child"</em> level elements.</p>
+        <p><code>ancestor > child { property: value;}</code></p>
+    </div>
+    <div>
+        <h2>CSS Positions</h2>
+        <p>The position property specifies the type of positioning method used for an element.</p>
+        <p>There are five different position values.</p>
+        <ul>
+            <li>static</li>
+            <li>relative</li>
+            <li>fixed</li>
+            <li>absolute</li>
+            <li>sticky</li>
+        </ul>
+        <p>Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.</p>
+        <p><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">Learn more about CSS Positioning</a></p>
+    </div>
+
+        <h2>HTML Semantics</h2>
+        <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+        <p>Examples of non-semantic elements: div and span - Tells nothing about its content.</p>
+        <p>Examples of semantic elements: form, table, and article - Clearly defines its content.</p>
+
+
+
+            <h2>DIVs, IDs and Classes</h2>
+            <p>A DIV element is used when no other <strong>semantic elements</strong> are appropriate.</p>
+            <p>A DIV is a block-level element, so it has a line break before and after it. It is possible to place any <strong>HTML Element</strong> within a DIV, including another DIV.</p>
+            <p>When we build layouts, we deal with multiple containers defined by the DIV tag. The positioning of these containers is at the heart of our layout. We can use them like a table to space out content beautifully on our website.</p>
+            <p>The #id selector selects elements with a specific id attribute</p>
+            <p>In HTML this would be written as</p>
+            <p><code>div id="idattribute"</code></p>
+            <p>and in CSS</p>
+            <p><code>#idattribute { property: value;}</code></p>
+            <p>The .class selector selects elements with a specific class attribute</p>
+            <p>In HTML this would be written as</p>
+            <p><code>div class="classattribute"</code></p>
+            <p>and in CSS</p>
+            <p><code>.classattribute { property: value;}</code></p>
+            <p>You can also specify that only specific HTML elements should be affected by a class. To do this, start with the element selector, then period (.) character, followed by the class attribute. Example:</p>
+            <p><code>p.classattribute { background-color: lightcoral }</code></p>
+            <p class="classattribute">This paragraph has the class attribute as above.</p>
+
+
+
+
+                
+
+
         <h2><a href="/contact.html" target="_blank">Contact Us</a></h2>
 
-        <div class="container">
+        <div>
         <h2>Lesson Plan</h2>
         <table>
             <tr>
@@ -72,13 +129,6 @@
             </tr>
         </table>
         </div>
-        
-        <div id="mainContainer" class="container">
-            <h2>DIVs, IDs and Classes</h2>
-            <p>DIVs are elements that are like containers that hold content. They can be customised using <em>"id"</em> and <em>"class"</em> selectors in CSS.</p>
-            <p>An ID gives a unique identification to a DIV, like a Header or Navigation. Class can be a uniformed style, like sections in your website; ie Articles.</p>
-            <p>The Lesson Plan DIV and this DIV have the same class, but this current DIV has an ID. So even though both these DIVs have the same rules, this one has some unique, extra rules about its background style.</p>
-            <p>Click <a href="/divs.html">'Next'</a> to learn more about Selectors</p>
-        </div>
+
     </body>
 </html>
